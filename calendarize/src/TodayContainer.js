@@ -2,6 +2,8 @@ import React, { useRef, useState } from 'react';
 import TodayCard from './Today';
 import CollegeEvents from './CollegeEvents.json';
 import cardTheme from './CardTheme';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
 
 
 function TodayCardContainer() {
@@ -78,7 +80,11 @@ function TodayCardContainer() {
           RegLink={cEvent.regLink}
           RegStatus={closingDate-today}
           linearGradient={gradientStyle}
+      
           />
+              <button onClick={() => onToggleFavorite(cEvent.id)}>
+        <FontAwesomeIcon icon={faHeart} color={isFavorite ? 'red' : 'black'} />
+      </button>
           </div>
           )
         }else {
