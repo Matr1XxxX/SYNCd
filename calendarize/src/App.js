@@ -1,17 +1,29 @@
-import { icon } from '@fortawesome/fontawesome-svg-core/import.macro'
 import './App.css';
-import './calander.js'
-import ReactDOM from 'react-dom'
+import TodayCardContainer from './TodayContainer';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faCirclePlus, faBell } from '@fortawesome/free-solid-svg-icons'
+import UpcomingCardContainer from './UpcomingContainer';
+import Calendar from './calander';
 
 function App() {
   return (
-    <navigator className="navBar">
-      <h1 className="nameLogo">CALENDARIZE</h1>
-      <button className="addEvent">Add Event</button>
-      <button className="profile"><FontAwesomeIcon icon={faUser} /></button>
-    </navigator>
+    <div>
+      <nav className="navBar">
+        <h1 className="nameLogo">CALENDARIZE</h1>
+        {/* <button className="addEvent"><FontAwesomeIcon icon={faCirclePlus} size="xl" /></button>
+        <button className="profile"><FontAwesomeIcon icon={faUser} size="xl"/></button>
+        <button className="notifications"><FontAwesomeIcon icon={faBell} size="xl"/></button>       */}
+      </nav>
+      <h1 className="todayEvents">Today's Events</h1>
+      <TodayCardContainer />
+      <h1 className="upcomingEvents">Upcoming Events</h1>
+      <div className="Card-container">
+        <UpcomingCardContainer />
+        </div>
+        <div className="calendarContainer">  
+          <Calendar />
+        </div>
+    </div>
   );
 }
 export default App;
