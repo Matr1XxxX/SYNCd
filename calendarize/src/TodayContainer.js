@@ -82,9 +82,7 @@ function TodayCardContainer() {
           linearGradient={gradientStyle}
       
           />
-              <button onClick={() => onToggleFavorite(cEvent.id)}>
-        <FontAwesomeIcon icon={faHeart} color={isFavorite ? 'red' : 'black'} />
-      </button>
+          
           </div>
           )
         }else {

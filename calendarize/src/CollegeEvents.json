@@ -1,24 +1,99 @@
-[
-  {
-    "id": 0,
-    "eventName": "Hallothon 2023",
-    "eventFrom": "2023-10-14T08:00:00",
-    "eventTo": "2023-10-15T13:00:00",
-    "studentCriteria": "Any College",
-    "regLink": "https://www.hallothon.com/?fbclid=PAAabn1Gk4OtChVaUkPY0t-GoneHNI8W4-PtKrhiztV1f3Q0sL72AhfNDqfwo",
-    "regStatus": "2023-10-12T23:00:00",
-    "eventDesc": "PES's biggest 24hr hackathon",
-    "eventTheme": "blue"
-  },
-  {
-    "id": 1,
-    "eventName": "IFSR",
-    "eventFrom": "2023-10-15T08:00:00",
-    "eventTo": "2023-10-16T13:00:00",
-    "studentCriteria": "Any College",
-    "regLink": "https://www.hallothon.com/?fbclid=PAAabn1Gk4OtChVaUkPY0t-GoneHNI8W4-PtKrhiztV1f3Q0sL72AhfNDqfwo",
-    "regStatus": "2023-10-15T13:00:00",
-    "eventDesc": "PES's 2nd biggest 24hr hackathon",
-    "eventTheme": "red"
-  }
+[{
+  "eventName": "Hallothon 2023",
+  "eventFrom": "2023-10-14T08:00:00",
+  "eventTo": "2023-10-15T13:00:00",
+  "studentCriteria": "Open To All",
+  "regLink": "fa",
+  "regStatus": "2023-10-12T23:00:00",
+  "eventDesc": "PES's biggest 24 hour hackathon",
+  "eventTheme": "Hackathon",
+  "like": 1
+},
+{
+  "eventName": "Kodikon 3.0",
+  "eventFrom": "2023-11-04T08:00:00",
+  "eventTo": "2023-11-05T13:00:00",
+  "studentCriteria": "Open To All",
+  "regLink": "fa",
+  "regStatus": "2023-10-12T23:00:00",
+  "eventDesc": "One of the most anticipated hackathons",
+  "eventTheme": "Hackathon",
+  "like": 0
+},
+{
+  "eventName": "Code Of Honour",
+  "eventFrom": "2023-11-04T08:00:00",
+  "eventTo": "2023-11-05T13:00:00",
+  "studentCriteria": "PES only",
+  "regLink": "fa",
+  "regStatus": "2023-10-12T23:00:00",
+  "eventDesc": "Mathematics",
+  "eventTheme": "Hackathon",
+  "like": 0
+},
+{
+  "eventName": "Samarpana Run",
+  "eventFrom": "2023-10-29T06:00:00",
+  "eventTo": "2023-10-29T10:00:00",
+  "studentCriteria": "Open to All",
+  "regLink": "fa",
+  "regStatus": "2023-10-12T23:00:00",
+  "eventDesc": "Run for Martyrs",
+  "eventTheme": "Marathon",
+  "like": 1
+},
+{
+  "eventName": "ICFI",
+  "eventFrom": "2023-11-30T09:00:00",
+  "eventTo": "2023-12-01T16:00:00",
+  "studentCriteria": "Open To All",
+  "regLink": "fa",
+  "regStatus": "2023-10-15T23:00:00",
+  "eventDesc": "Research Paper",
+  "eventTheme": "Conference",
+  "like": 0
+},
+{
+  "eventName": "ISFCR",
+  "eventFrom": "2023-10-14T08:00:00",
+  "eventTo": "2023-10-15T12:00:00",
+  "studentCriteria": "PES only",
+  "regLink": "fa",
+  "regStatus": "2023-10-10T23:00:00",
+  "eventDesc": "Capture The Flag",
+  "eventTheme": "Hackathon"
+},
+{
+  "eventName": "Navratri Utsav",
+  "eventFrom": "2023-10-18T16:00:00",
+  "eventTo": "2023-10-18T18:00:00",
+  "studentCriteria": "PES only",
+  "regLink": "fa",
+  "regStatus": "2023-10-16T23:00:00",
+  "eventDesc": "festival celebration",
+  "eventTheme": "Cultural",
+  "like": 1
+},
+{
+  "eventName": "Birds of a Feather",
+  "eventFrom": "2023-10-18T14:00:00",
+  "eventTo": "2023-10-18T16:00:00",
+  "studentCriteria": "PES only",
+  "regLink": "fa",
+  "regStatus": "2023-10-12T23:00:00",
+  "eventDesc": "Come speak your Heart Out",
+  "eventTheme": "OpenMic",
+  "like": 0
+},
+{
+  "eventName": "ISA Script Review",
+  "eventFrom": "2023-10-16T15:45:00",
+  "eventTo": "2023-10-16T16:30:00",
+  "studentCriteria": "PES only",
+  "regLink": "fa",
+  "regStatus": "2023-10-16T23:00:00",
+  "eventDesc": "To reviewq your ISA Papers",
+  "eventTheme": "Academic",
+  "like": 0
+}
 ]
